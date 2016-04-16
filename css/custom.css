@@ -1,0 +1,142 @@
+/*color pallet: http://www.color-hex.com/color-palette/6411 */
+
+html, body{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+/*	color: #f2e7a6;
+	background: #6bc399;*/
+	min-width: 350px;
+	line-height: 1.5em;
+}
+
+h1, h2, h3{
+	font-family: 'Balthazar', serif;
+
+}
+
+img {
+	border-radius: 10px;
+}
+
+.jumbotron {
+   margin-bottom: 0px;
+    background-image: url(../img/main-img.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.container{
+	max-width: 940px;
+}
+
+.secondtron {
+	 /*margin-bottom: 30px;*/
+	background-position: center;
+	background-position: 0% 10%;
+	min-height: 270px;
+	width: auto;
+}
+
+.secondtron .container{
+	padding-top: 110px;
+}
+
+.spacer{
+	margin: 25px 0;
+}
+
+/*.calendar{
+	color:blue;
+	text-align: center;
+	border: 1px solid #ccc;
+	background-color: yellow;
+	border-radius: 10px;
+}*/
+
+h2{
+	border: 1px solid white;
+	padding: 10px 30px;
+	color: white;
+
+}
+
+.front{
+	border-radius: 0;
+	width: 100%;
+	padding:0;
+}
+
+.carousel-caption{
+	bottom: 25%;
+}
+
+.list li{
+	list-style-type: none;
+}
+
+.small {
+	font-size: 0.6em;
+}
+/*----------------------------------------BUTTONS-------------*/
+.btn-main{
+	border: 1px solid white;
+	color: white;
+	border-radius: 0;
+	box-shadow: black 0.3em 0.3em 0.3em;
+	text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.btn-second{
+	border: 1px solid white;
+	color: #333;
+	border-radius: 0;
+	background-color: #b9dab3;
+
+	
+}
+
+
+/*------------------------------------------CAROUSEL----------*/
+
+h4 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.p {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 13px;
+}
+
+
+
+/*-------------------------------------------ABOUT PAGE ------*/
+
+.about{
+	background-image: url(../img/hawk-crew.jpg);
+
+}
+
+/*-------------------------------------------AMENITIES PAGE ------*/
+
+.amenities {
+	 /*margin-bottom: 30px;*/
+	background-image: url(../img/indoor-grandroom.jpg);
+}
+
+/*-------------------------------------------CONTACT PAGE ------*/
+
+
+.contact{
+	background-image: url(../img/camp-signs.jpg);
+}
+.required {color:red; font-weight:bold}
+.center-block {float:none}
+.human {margin: 0 0 0 12px}
